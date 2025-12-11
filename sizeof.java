@@ -1,4 +1,5 @@
-class Main {
+import java.util.Scanner;
+public class Sizeof {
     public static void main(String[] args) {
         System.out.println("char: " + Character.SIZE/8);
         System.out.println("int: " + Integer.SIZE/8);
@@ -6,3 +7,4 @@ class Main {
         System.out.println("double: " + Double.SIZE/8);
     }
 }
+
